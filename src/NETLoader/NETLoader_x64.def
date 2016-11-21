@@ -1,0 +1,7 @@
+LIBRARY    "NETLoader_x64.dll"
+
+EXPORTS
+GetClassObject
+DestroyObject
+GetClassNames
+
