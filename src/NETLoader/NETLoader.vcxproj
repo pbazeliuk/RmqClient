@@ -151,7 +151,7 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -173,7 +173,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -194,7 +194,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -223,7 +223,7 @@
       <ModuleDefinitionFile>NETLoader_x32.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -254,7 +254,7 @@
       <ModuleDefinitionFile>NETLoader_x32.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -285,7 +285,7 @@
       <ModuleDefinitionFile>NETLoader_x64.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\bin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
+      <Command>"$(SolutionDir)\utils\7zip\7z.exe" u "$(SolutionDir)\addin\AddIn.NETLoader.zip" "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
